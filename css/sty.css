@@ -1,0 +1,104 @@
+/* Global styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f8f8f8; /* Ivory or off-white background */
+    color: #333; /* Dark text color */
+}
+
+/* Classical theme */
+.classical-theme {
+    background-color: #fff; /* White background */
+    color: #333; /* Dark text color */
+}
+
+/* Menu Section */
+.main-panel .logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333; /* Dark color for the logo */
+}
+
+nav a {
+    color: #333 !important; /* Dark color for menu links */
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #555 !important; /* Darker color on hover */
+}
+
+/* Main Banner */
+.banner-section {
+    background: url('path/to/banner-image.jpg') center/cover;
+}
+
+/* About Us Section */
+.about-us {
+    border: 1px solid #ccc; /* Classic border style */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Skill Section */
+.skill span {
+    background-color: #ffbf35; /* Gold color for skill bars */
+}
+
+/* Experience Section */
+.experience-content {
+    border-bottom: 1px solid #ccc; /* Classic divider */
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+/* Service Section */
+.service-list {
+    border: 1px solid #ccc; /* Classic border */
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Testimonial Section */
+.testimonial-content {
+    background-color: #f8f8f8; /* Light background for testimonials */
+    border: 1px solid #ccc; /* Classic border */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Portfolio Section */
+.gallery img {
+    border: 3px solid #fff; /* White border around portfolio images */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Classic box shadow */
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05); /* Scale up on hover for a subtle effect */
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333; /* Dark background for the footer */
+    color: #fff; /* Light text color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icon a i {
+    color: #fff; /* Light color for social icons */
+    background-color: #333; /* Dark background for social icons */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.social-icon a i:hover {
+    background-color: #555; /* Darker background on hover */
+}
